@@ -20,7 +20,7 @@ const fileName = './public/index.html';
 fs.readFile(fileName, 'utf8', (err, data) =>{
     if(err){
         console.error(err);
-        return const fs = require('fs');
+        return fs;
     }
 });
 
